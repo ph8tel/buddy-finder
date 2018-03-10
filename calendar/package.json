@@ -1,0 +1,24 @@
+{
+    "name": "Buddy Finder Calendar",
+    "version": "0.0.3",
+    "description": "Schedule a trip with someone",
+    "main": "app.js",
+    "dependencies": {
+        "express": "^4.16.2",
+        "mongodb": "^2.2.34",
+        "mongoskin": "^2.1.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Start app and open http://localhost:3000/test/init && exit 1",
+        "start": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ph8tel/buddy-finder.git"
+    },
+    "author": "ph8tel",
+    "license": "GPL V3",
+    "readmeFilename": "README.md"
+}
